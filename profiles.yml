@@ -1,1 +1,19 @@
-#test
+config:
+  send_anonymous_usage_stats: False
+
+default:
+  outputs:
+
+    dev: # User-Password config
+      type: snowflake
+      account: osakkal
+      user: DBT_CLOUD_DEV
+      password: Omar12345.
+      role: TRANSFORMER_DEV
+      database: DEV
+      warehouse: TRANSFORMING
+      schema: osakkal
+      threads: 1
+      client_session_keep_alive: False
+
+  target: dev

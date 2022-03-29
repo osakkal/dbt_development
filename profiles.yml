@@ -6,7 +6,7 @@ default:
 
     dev: # User-Password config
       type: snowflake
-      account: osakkal
+      account: yc33815.ap-southeast-2
       user: DBT_CLOUD_DEV
       password: Omar12345.
       role: TRANSFORMER_DEV
